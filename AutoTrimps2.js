@@ -52,7 +52,8 @@ function printChangelog() {
 <br><a href="https://github.com/genbtc/AutoTrimps-betadev#current-feature-changes-by-genbtc" target="#">Read the 12/20 Changelog Here</a>\
 <br><a href="https://github.com/genbtc/AutoTrimps-betadev/commits/gh-pages" target="#">Check the commit history</a> (if you care)\
 ', 'cancelTooltip()', 'Script Update Notice ' + ATversion);
-}*/
+}
+*/
 ////////////////////////////////////////
 //Main DELAY Loop///////////////////////
 ////////////////////////////////////////
