@@ -8,7 +8,7 @@
 // @include      *kongregate.com/games/GreenSatellite/trimps
 // @grant        none
 // ==/UserScript==
-window.alert("script source loaded");
+//window.alert("script source loaded");
 var ATversion = 'QT - 2.1.5.2-genbtc-12-23-2016+Modular';
 
 ////////////////////////////////////////////////////////////////////////////////
