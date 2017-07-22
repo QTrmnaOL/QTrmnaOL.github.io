@@ -12,7 +12,7 @@
 var script = document.createElement('script');
 script.id = 'AutoTrimps-script';
 //script.src = 'https://genbtc.github.io/AutoTrimps-betadev/AutoTrimps2.js';
-script.src = 'https://qtrmnaol.github.io//blob/master/AutoTrimps2.js';
+script.src = 'https://qtrmnaol.github.io/AutoTrimps2.js';
 document.head.appendChild(script);
 
 
