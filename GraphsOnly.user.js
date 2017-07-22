@@ -10,5 +10,5 @@
 // ==/UserScript==
 var script = document.createElement('script');
 script.id = 'AutoTrimps-script';
-script.src = 'https://genbtc.github.io/AutoTrimps-betadev/Graphs.js';
+script.src = 'https://qtrmnaol.github.io/Graphs.js';
 document.head.appendChild(script);
