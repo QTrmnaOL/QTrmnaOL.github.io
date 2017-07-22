@@ -16,7 +16,7 @@ var ATversion = 'QT - 2.1.5.2-genbtc-12-23-2016+Modular';
 ////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////
 var atscript = document.getElementById('AutoTrimps-script')
-  , base = 'https://raw.githubusercontent.com/QTrmnaOL/Autotrimps-v2-alpha-QTrmnaOL/master/'
+  , base = 'https://qtrmnaol.github.io/'
   , module = 'modules/'
   ;
 if (atscript !== null) {
