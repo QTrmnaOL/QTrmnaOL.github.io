@@ -36,11 +36,11 @@ function initializeADR() {
 
 function printChangelog() {
     tooltip('confirm', null, 'updADRe', '\
-<br>12/23 v2.1.5.2\
+<br>23.07. v0.1\
 <br><b><u>Report any bugs/problems please!</u></b>\
-<br><a href="https://github.com/genbtc/ADR-betadev#current-feADRure-changes-by-genbtc" target="#">Read the 12/20 Changelog Here</a>\
-<br><a href="https://github.com/genbtc/ADR-betadev/commits/gh-pages" target="#">Check the commit history</a> (if you care)\
-', 'cancelTooltip()', 'Script UpdADRe Notice ' + ADRversion);
+<br><a href="https://github.com/QTrmnaOL/QTrmnaOL.github.io/tree/master/aDarkRoom" target="#">Changelogblabla</a>\
+<br><a href="commit history" target="#">Check the commit history</a> (if you care)\
+', 'cancelTooltip()', 'Script Update Notice ' + ADRversion);
 }
 
 ////////////////////////////////////////
