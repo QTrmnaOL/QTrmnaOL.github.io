@@ -72,7 +72,7 @@ function delayStartAgain(){
 
 
 var ADRdebug = true;
-var enableconsole.log = true; //Spam console
+//var debug = true; //Spam console
 var ADRrunning;
 
 
