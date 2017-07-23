@@ -31,7 +31,7 @@ function initializeADR() {
    //    document.head.appendChild(document.creADReElement('script')).src = base + 'Graphs.js';
    //Load modules:
  
-    debug('ADR v' + ADRVersion + ' Loaded!');    
+   console.log('ADR v' + ADRVersion + ' Loaded!');    
 }
 
 function printChangelog() {
@@ -71,8 +71,9 @@ function delayStartAgain(){
 ////////////////////////////////////////
 
 
-var ADRDebugTabVisible = true;
-var enableDebug = true; //Spam console
+var ADRdebug = true;
+var enableconsole.log = true; //Spam console
+var ADRrunning;
 
 
 ////////////////////////////////////////
@@ -89,21 +90,7 @@ function mainLoop() {
      
     
     //Runs any user provided scripts - by copying and pasting a function named userscripts() into the Chrome Dev console. (F12)
-    if (userscriptOn) userscripts();
+    //if (userscriptOn) userscripts();
     //rinse, repeat
     return;
-}
-
-//GUI Upgrades happen on this thread, every 1000ms, concurrently
-function guiLoop() {
-    updADReCustomButtons();
-}
-
-// Userscript loader. write your own!
-var userscriptOn = true;    //controls the looping of userscripts and can be self-disabled
-var globalvar0,globalvar1,globalvar2,globalvar3,globalvar4,globalvar5,globalvar6,globalvar7,globalvar8,globalvar9;
-//left blank intentionally. the user will provide this. blank global vars are included as an example
-function userscripts()
-{
-    //insert code here:
 }
