@@ -53,14 +53,13 @@ var startupDelay = 2000;    //How long to wait for everything to load
 
 setTimeout(delayStart, startupDelay);
 function delayStart() {
-    initializeADR();
-    printChangelog();
+ //   initializeADR();
+ //   printChangelog();
     setTimeout(delayStartAgain, startupDelay);
 }
 function delayStartAgain(){
     setInterval(mainLoop, runInterval);
     setInterval(guiLoop, runInterval*10);
-    updADReCustomButtons();
     //MODULESdefault = MODULES;
     //MODULESdefault = Object.assign({}, MODULES);
     MODULESdefault = JSON.parse(JSON.stringify(MODULES));
