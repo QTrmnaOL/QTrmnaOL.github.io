@@ -44,7 +44,7 @@ function initializeAutoTrimps() {
     //
     debug('AutoTrimps v' + ATversion + ' Loaded!', '*spinner3');    
 }
-/*
+
 function printChangelog() {
     tooltip('confirm', null, 'update', '\
 <br>12/23 v2.1.5.2\
@@ -53,7 +53,7 @@ function printChangelog() {
 <br><a href="https://github.com/genbtc/AutoTrimps-betadev/commits/gh-pages" target="#">Check the commit history</a> (if you care)\
 ', 'cancelTooltip()', 'Script Update Notice ' + ATversion);
 }
-*/
+
 ////////////////////////////////////////
 //Main DELAY Loop///////////////////////
 ////////////////////////////////////////
