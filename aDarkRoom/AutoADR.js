@@ -86,7 +86,7 @@ function mainLoop() {
 
     //EXECUTE CORE LOGIC
      document.getElementById('deny').click();
-     document.getElementById('build_hut').click();
+     document.getElementById('build_hut.button').click();
      
     
     //Runs any user provided scripts - by copying and pasting a function named userscripts() into the Chrome Dev console. (F12)
