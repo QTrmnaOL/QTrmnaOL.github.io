@@ -28,7 +28,7 @@ if (ADRscript !== null) {
 }
 
 function initializeADR() {
-    loadPageVariables();
+   // loadPageVariables();
    //    document.head.appendChild(document.creADReElement('script')).src = base + 'Graphs.js';
    //Load modules:
  
