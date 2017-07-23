@@ -9,7 +9,8 @@
 // ==/UserScript==
 //credits to genBTC. Refactoring code and structure of ADRv2 
 // https://github.com/genbtc/ADR-betadev
-
+//easy logic:
+// https://gist.githubusercontent.com/DerMitch/6838552/raw/8b589b20ccdacc59a5cf7c92c5dc24e70d68a2de/bot.js
 
 //window.alert("script source loaded");
 var ADRVersion = '0.1 ';
